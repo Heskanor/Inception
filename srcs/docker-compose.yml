@@ -44,10 +44,10 @@ volumes:
                 driver_opts:
                   type: 'none'
                   o: 'bind'
-                  device: '/home/escanor/data/mysql'
+                  device: '/home/ashite/data/mysql'
         wp-files:
                 driver: local
                 driver_opts:
                         type: 'none'
                         o: 'bind'
-                        device: '/home/escanor/data/html'
+                        device: '/home/ashite/data/html'
